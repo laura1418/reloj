@@ -14,3 +14,15 @@ def draw() :
         ? = 0
     else:
         ? = map(second(), 0, 60, 0, height)
+
+        
+        
+    ellipse(width/2, vertical_position, 50, 50)
+    fill(0)
+    
+    if vertical_position > height:
+        vertical_position = 0
+    else:
+        vertical_position = map(minute(), 0, 60, 0, height) 
+     
+        
