@@ -1,0 +1,16 @@
+k = 0
+
+def setup() :
+    size(300, 600)
+
+def draw() :
+    global k
+    background(175)
+
+
+    ellipse(width/ 2, k, 50, 50)
+    fill(232, 5, 24)
+    if ? > height :
+        ? = 0
+    else:
+        ? = map(second(), 0, 60, 0, height)
